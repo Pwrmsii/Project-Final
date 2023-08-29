@@ -1,0 +1,13 @@
+1. การเชื่อม Azure กับ Web
+2. Powershell script
+3. การเขียนเว็บ
+4. การกำหนด user admin
+
+ขอบเขต
+   สามารถสร้าง Web Server ที่ทำงานบน IIS Server ได้ 
+	ข้อมูล : https://www.youtube.com/watch?v=8O5lCTQHu6I&ab_channel=TECHADOPT
+	ข้อมูล : มีสไลด์
+    สามารถออกแบบ Web Interface (UI/UX) ให้ง่ายต้องการใช้งานได้
+    สามารถบริหารจัดการ Azure AD User (เพิ่ม/ลบ/แก้ไข) ผ่าน Web Portal ได้
+
+

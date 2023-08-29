@@ -1,0 +1,31 @@
+Framework
+	https://km.cc.swu.ac.th/archives/4235
+Platform
+	https://talkatalka.com/blog/what-is-a-platform/
+Website
+	https://www.webmaster.or.th/website
+	https://www.uds.co.th/article/2019/03/20/web-site/
+Azure AD
+	https://blog.cloudhm.co.th/azure-active-directory/
+	https://monsterconnect.co.th/azure-ad-vs-ad-ds/
+IIS Server
+	https://www.bestinternet.co.th/single_blog.php?id=113&IIS%20(Internet%20Information%	20Services)%20%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%	B9%84%E0%B8%A3%20?
+VMWare
+	https://www.mindphp.com/%E0%B8%9A%E0%B8%97%E0%B8%84%E0%B8%A7%E0%B8%	B2%E0%B8%A1/virtual-machine/5016-vmware.html
+	https://www.quickserv.co.th/knowledge-base/solutions/vmware-server-%e0%b9%82%e0%b8%9b%	e0%b8%a3%e0%b9%81%e0%b8%81%e0%b8%a3%e0%b8%a1%e0%b9%80%e0%b8%aa%e0%	b8%a1%e0%b8%b7%e0%b8%ad%e0%b8%99%e0%b8%95%e0%b8%b1%e0%b8%a7%e0%b8%	99%e0%b8%b5%e0%b9%89%e0%b8%a1%e0%b8%b5%e0%b8%ab%e0%b8%a5%e0%b8%b1%	e0%b8%81%e0%b8%81%e0%b8%b2%e0%b8%a3%e0%b8%95%e0%b8%b4%e0%b8%94%e0%	b8%95%e0%b8%b1%e0%b9%89%e0%b8%87%e0%b9%81%e0%b8%a5%e0%b8%b0%e0%b8%	97%e0%b8%b3%e0%b8%87%e0%b8%b2%e0%b8%99%e0%b8%ad%e0%b8%a2%e0%b9%88%	e0%b8%b2%e0%b8%87%e0%b9%84%e0%b8%a3/
+ManageEngine ADManager
+	https://www.manageengine.com/products/ad-manager/th-th/index.html
+Microsoft Graph 
+	Chat GPT
+	https://www.blognone.com/node/74933
+Windows Server
+	https://addin.co.th/blog/windows-server/
+Window OS
+	https://addin.co.th/blog/what-is-windows/
+Java
+	https://www.mindphp.com/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%	E0%B8%AD/73-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%	B9%84%E0%B8%A3/2185-java-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%	B8%B0%E0%B9%84%E0%B8%A3.html
+JavaScript
+	https://aws.amazon.com/th/what-is/javascript/
+HTML 
+	https://www.mindphp.com/%E0%B8%84%E0%B8%B9%E0%B9%88%E0%B8%A1%E0%B8%B7%	E0%B8%AD/73-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%	B9%84%E0%B8%A3/2026-html-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%	B8%B0%E0%B9%84%E0%B8%A3.html
+	https://seendy2000.wixsite.com/online-fundraising/blank-csgz

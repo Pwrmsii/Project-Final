@@ -1,0 +1,31 @@
+ขอบเขต / ขั้นตอน 
+   ต้องมี ad 
+ลง window server 
+ลง ad connect
+มี 365 
+เชื่อมต่อ ad connect เพื่อ เชื่อมต่อระหว่าง  on pem และ on cloud (azure protal)
+ใช้งาน ad  connect
+
+
+หาข้อมูล
+Azure Active Directory documentation
+Azure Active Directory Connect documentation
+
+
+ขอบเขค
+	ความต้องการของระบบมีอะไรบ้าง
+	ติดตั้ง window server 
+	ติดตั้ง Azure ad coonect 
+	ตั้งค่า azure ad connect
+	ตรวจสอบและการใช้งาน azyre ad connect
+
+
+https://learn.microsoft.com/en-us/system-center/vmm/system-requirements?view=sc-vmm-2022
+
+
+1 สามารถเพิ่มผู้ใช้ อุปกรณ์ กำหนดสิทธิ์ต่างๆของผู้ใช้
+2 สามารถ Configure Feature ต่างๆของ Azure AD Connect
+3 สามารถซิงค์ข้อมูลที่สร้างให้ขึ้นบนคลาวด์
+4 สามารถตั้งค่าฟังก์ชันความปลอดภัยของบัญชีผู้ใช้
+
+
