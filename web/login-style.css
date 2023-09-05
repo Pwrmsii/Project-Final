@@ -48,7 +48,7 @@ h3 {
     width: 100%;
     margin-bottom: 20px;
 }
-.login-box input[type="text"] , .login-box input[type="password"] {
+.login-box input[type="email"] , .login-box input[type="password"] {
     border: none;
     border-bottom: 3px solid #515151;
     outline: none;
