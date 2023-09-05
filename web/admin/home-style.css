@@ -5,11 +5,11 @@
     align-items: center;
 }
 
-body {
+/*body {
     max-width: 1440px;
     background-color: #91A3B0;
     box-sizing: border-box;
-}
+}*/
 
 navbar {
     position: absolute;
@@ -33,7 +33,7 @@ navbar {
 /*card profile*/
 .bodycard {
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
 } 
 
@@ -104,19 +104,20 @@ navbar {
 }
 
 /* info-con */
-.info-con {
+/*.info-con {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
+    max-height: 720px;
+    
 
-
-}
+}*/
 
 /* table */
-.table {
-    width: 100%;
-    max-width: 600px;
-    height: 550px;
+.cus-table {
+    color: #fff;
+    font-size: 16px;
 }
 
 
