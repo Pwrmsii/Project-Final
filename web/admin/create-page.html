@@ -9,12 +9,103 @@
 </head>
 <body>
 
-        <nav class="menu-btn">
-            <a href="#">HOME</a>
+        <!-- menu -->
+        <navbar class="menu-btn">
+            <a href="/web/admin/home-page.html">HOME</a>
             <a href="#">ABOUT US</a>
-            <a href="#">CREATE USER</a>
+            <a href="/web/admin/create-page.html">CREATE USER</a>
             <a href="#">REMOVE USER</a>
-        </nav>
+        </navbar>
+
+        <!-- form create -->
+        <div class="form-cre d-flex justify-content-center">
+            <!-- NAME HEADER-->
+            <h2>Create Form</h2>
+            <form action="" method="post">
+                <!-- Upload IMG -->
+                <div class="up-img">
+                    <img id="upload-image" src="#" alt="รูปภาพจะปรากฏที่นี่" style="display: none;">
+                    <label class="upload-button" for="file-input"></label>
+                    <input type="file" id="file-input" accept="image/*">
+                </div>
+                <div class="form-con">
+                    <!-- name -->
+                    <div class="name">
+                        <!-- firstname -->
+                        <label for="firstname">Firstname</label>
+                        <input type="text" placeholder="  firstname">
+                        <!-- lastname -->
+                        <label for="lastname">Lastname</label>
+                        <input type="text" placeholder="  lastname">
+                    </div>  
+                    <!-- email -->
+                        <label for="email">Email</label>
+                        <input type="email" placeholder="  email">
+                    <!-- password -->
+                    <div class="password">
+                        <!-- firstname -->
+                        <label for="password">Password</label>
+                        <input type="text" placeholder="  password">
+                        <!-- lastname -->
+                        <label for="password">Confirm password</label>
+                        <input type="text" placeholder="  comfirm password">
+                    </div> 
+                    <!-- phone -->
+                    <label for="phone">Phone</label>
+                    <input type="tel" placeholder="  phone">
+                    <!-- date -->
+                    <label for="date">Birthdate</label>
+                    <input type="date" placeholder="  birthdate">
+                    <!-- job -->
+                    <div class="dep">
+                        <!-- department -->
+                        <label for="department">Department</label>
+                        <select name="department" id="department">
+                            <option value="0001">0001</option>
+                            <option value="0002">0002</option>
+                            <option value="0003">0003</option>
+                            <option value="0004">0004</option>
+                            <option value="0005">0005</option>
+                            <option value="0006">0006</option>
+                        </select>
+                    </div>
+                    <div class="divi">
+                        <!-- division -->
+                        <label for="division">Division</label>
+                        <select name="division" id="division">
+                            <option value="0001">0001</option>
+                            <option value="0002">0002</option>
+                            <option value="0003">0003</option>
+                            <option value="0004">0004</option>
+                            <option value="0005">0005</option>
+                            <option value="0006">0006</option>
+                        </select>
+                    </div>
+                    <div class="role">
+                        <!-- Roles -->
+                        <label for="role">Roles and administrators</label>
+                        <select name="role" id="role">
+                            <option value="0001">0001</option>
+                            <option value="0002">0002</option>
+                            <option value="0003">0003</option>
+                            <option value="0004">0004</option>
+                            <option value="0005">0005</option>
+                            <option value="0006">0006</option>
+                        </select>
+                    </div>
+                    <div class="btn-sub-re">
+                        <!-- BTN -->
+                        <button type="submit" class="btn-primary">Submit</button>
+                        <button type="reset" class="btn-primary">Reset</button>
+                    </div>
+                    
+                </div>
+                
+                
+            
+            </form>
+        </div>
+        
 
 
 </body>

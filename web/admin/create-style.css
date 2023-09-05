@@ -1,14 +1,18 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: #91A3B0;
+    align-items: center;
     box-sizing: border-box;
 }
-body {
+
+/*body {
     max-width: 1440px;
     background-color: #91A3B0;
-}
+    box-sizing: border-box;
+}*/
 
-nav {
+navbar {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -20,9 +24,21 @@ nav {
 .menu-btn a {
     text-decoration: none;
     color: #fff;
-    padding: 15px 15px;
-    border-radius: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
     margin: 0 20px;
     font-weight: 600;
+    background-color: #515151;
 }
 
+/* form create */
+.form-cre {
+    background-color: #f0f0f0;
+    padding: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: 820px;
+    
+}

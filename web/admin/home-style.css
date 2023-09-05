@@ -3,6 +3,7 @@
     padding: 0;
     background-color: #91A3B0;
     align-items: center;
+    box-sizing: border-box;
 }
 
 /*body {
