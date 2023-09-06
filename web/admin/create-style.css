@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
     background-color: #91A3B0;
-    align-items: center;
-    box-sizing: border-box;
+
 }
 
 /*body {
@@ -32,13 +31,40 @@ navbar {
 }
 
 /* form create */
-.form-cre {
-    background-color: #f0f0f0;
-    padding: 0;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    width: 700px;
-    height: 820px;
-    
+.container {
+    position: absolute;
+    display: flex; /* ใช้ flex container */
+    justify-content: center; /* จัดตรงกลางในแนวนอน */
 }
+.container {
+    margin: 0; 
+    padding: 0;
+    width: 650px; /* ให้ความกว้างเต็มหน้าจอ */
+    height: 850px; /* ให้ความสูงเต็มหน้าจอ */
+    background-color: #f0f0f0;
+    border-radius: 35px;
+}
+form {
+    background-color: transparent;
+}
+.form-detail , .form-detail label {
+    background-color: transparent;
+}
+.form-detail input , .form-detail select{
+    background-color: aqua;
+}
+.btn-submit {
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+
+

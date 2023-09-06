@@ -17,92 +17,84 @@
             <a href="#">REMOVE USER</a>
         </navbar>
 
-        <!-- form create -->
-        <div class="form-cre d-flex justify-content-center">
-            <!-- NAME HEADER-->
-            <h2>Create Form</h2>
-            <form action="" method="post">
-                <!-- Upload IMG -->
-                <div class="up-img">
-                    <img id="upload-image" src="#" alt="รูปภาพจะปรากฏที่นี่" style="display: none;">
-                    <label class="upload-button" for="file-input"></label>
-                    <input type="file" id="file-input" accept="image/*">
+        <!-- form -->
+        <div class="container">
+            <!-- รายละเอียดฟอร์ม -->
+            <form>
+                <!-- img -->
+                <div class="form-detail">
+                    <input type="file" name="img" id="img">
                 </div>
-                <div class="form-con">
-                    <!-- name -->
-                    <div class="name">
-                        <!-- firstname -->
-                        <label for="firstname">Firstname</label>
-                        <input type="text" placeholder="  firstname">
-                        <!-- lastname -->
-                        <label for="lastname">Lastname</label>
-                        <input type="text" placeholder="  lastname">
-                    </div>  
-                    <!-- email -->
-                        <label for="email">Email</label>
-                        <input type="email" placeholder="  email">
-                    <!-- password -->
-                    <div class="password">
-                        <!-- firstname -->
-                        <label for="password">Password</label>
-                        <input type="text" placeholder="  password">
-                        <!-- lastname -->
-                        <label for="password">Confirm password</label>
-                        <input type="text" placeholder="  comfirm password">
-                    </div> 
-                    <!-- phone -->
+                <!-- username -->
+                <div class="form-detail">
+                    <label for="text">Firstname</label>
+                    <input type="text" name="fname" placeholder=" firstname">
+
+                    <label for="text">Lastname</label>
+                    <input type="text" name="lname" placeholder=" lastname">
+                </div>
+                <!-- email -->
+                <div class="form-detail">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder=" email">
+                </div>
+                <!-- password -->
+                <div class="form-detail">
+                    <label for="password">Password</label>
+                    <input type="password" name="password">
+
+                    <label for="password">Comfirm password</label>
+                    <input type="password" name="password">
+                </div>
+                <!-- phone & date -->
+                <div class="form-detail">
                     <label for="phone">Phone</label>
-                    <input type="tel" placeholder="  phone">
-                    <!-- date -->
+                    <input type="tel" name="phone">
+
                     <label for="date">Birthdate</label>
-                    <input type="date" placeholder="  birthdate">
-                    <!-- job -->
-                    <div class="dep">
-                        <!-- department -->
-                        <label for="department">Department</label>
-                        <select name="department" id="department">
-                            <option value="0001">0001</option>
-                            <option value="0002">0002</option>
-                            <option value="0003">0003</option>
-                            <option value="0004">0004</option>
-                            <option value="0005">0005</option>
-                            <option value="0006">0006</option>
-                        </select>
-                    </div>
-                    <div class="divi">
-                        <!-- division -->
-                        <label for="division">Division</label>
-                        <select name="division" id="division">
-                            <option value="0001">0001</option>
-                            <option value="0002">0002</option>
-                            <option value="0003">0003</option>
-                            <option value="0004">0004</option>
-                            <option value="0005">0005</option>
-                            <option value="0006">0006</option>
-                        </select>
-                    </div>
-                    <div class="role">
-                        <!-- Roles -->
-                        <label for="role">Roles and administrators</label>
-                        <select name="role" id="role">
-                            <option value="0001">0001</option>
-                            <option value="0002">0002</option>
-                            <option value="0003">0003</option>
-                            <option value="0004">0004</option>
-                            <option value="0005">0005</option>
-                            <option value="0006">0006</option>
-                        </select>
-                    </div>
-                    <div class="btn-sub-re">
-                        <!-- BTN -->
-                        <button type="submit" class="btn-primary">Submit</button>
-                        <button type="reset" class="btn-primary">Reset</button>
-                    </div>
-                    
+                    <input type="date" name="date">
                 </div>
-                
-                
-            
+                <!-- department -->
+                <div class="form-detail">
+                    <label for="department">Department</label>
+                    <select name="department" id="department">
+                        <option value="">Choose</option>
+                        <option value="1">0001</option>
+                        <option value="2">0002</option>
+                        <option value="3">0003</option>
+                        <option value="4">0004</option>
+                        <option value="5">0005</option>
+                        <option value="6">0006</option>
+                    </select>
+                </div>
+                <!-- division -->
+                <div class="form-detail">
+                    <label for="division">Division</label>
+                    <select name="division" id="division">
+                        <option value="">Choose</option>
+                        <option value="1">0001</option>
+                        <option value="2">0002</option>
+                        <option value="3">0003</option>
+                        <option value="4">0004</option>
+                        <option value="5">0005</option>
+                        <option value="6">0006</option>
+                    </select>
+                </div>
+                <!-- role -->
+                <div class="form-detail">
+                    <label for="role">Role and administrators</label>
+                    <select name="role" id="role">
+                        <option value="">Choose</option>
+                        <option value="1">0001</option>
+                        <option value="2">0002</option>
+                        <option value="3">0003</option>
+                        <option value="4">0004</option>
+                        <option value="5">0005</option>
+                        <option value="6">0006</option>
+                    </select>
+                </div>
+                <!-- button submit -->
+                <button type="button" value="submit" class="btn-submit">Submit</button>
             </form>
         </div>
         
