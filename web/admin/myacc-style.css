@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #91A3B0;
+    max-width: 1440px;
+}
+
+/*body {
+    max-width: 1440px;
+    background-color: #91A3B0;
+    box-sizing: border-box;
+}*/
+
+navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 30px;
+    padding: 20px;
+}
+.menu-btn a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 0 20px;
+    font-weight: 600;
+    background-color: #515151;
+}
+
+/* CARD */
+.container {
+    background-color: #515151;
+    max-width: 650px;
+    width: 650px;
+    height: 850px;
+    border-radius: 35px;
+    justify-content: center;
+    display: flex;
+    margin: 10px 0;
+    padding: 0;
+}
+.card-acc img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /*margin-left: 60px;*/
+    margin-top: 65px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.card-acc {
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+}
+.main-info {
+    margin: 25px;
+}
+.detail-1 , .detail-2 {
+    display: flex;
+}
+
+/* BTN */
+.btn-card{
+    margin-top: 50px;
+}
+.btn-edit{
+    padding: 10px 20px;
+    background-color: #515151;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    margin-top: 30px;
+}
+.btn-signo{
+    padding: 10px 20px;
+    background-color: #FF8A00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+
+

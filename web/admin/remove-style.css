@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #91A3B0;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+/*body {
+    max-width: 1440px;
+    background-color: #91A3B0;
+    box-sizing: border-box;
+}*/
+
+navbar {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 30px;
+    padding: 20px;
+}
+.menu-btn a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 0 20px;
+    font-weight: 600;
+    background-color: #515151;
+}
+
+/*card profile*/
+.bodycard {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+} 
+
+.card {
+    max-width: 450px;
+    height: 720px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 40px;
+    margin-top: 180px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* Style for the card image */
+.card-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /*margin-left: 60px;*/
+    margin-top: 65px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Style for the card content */
+.card-content {
+    padding: 20px;
+    background-color: transparent;
+}
+
+/* Style for the card title */
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+    background-color: transparent;
+}
+
+/* Style for the card text */
+.card-text {
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 12px;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+/* Style for the card button */
+.card-button-edit{
+    display: grid;
+    padding: 10px 20px;
+    background-color: #515151;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    margin-top: 30px;
+}
+.card-button-signo{
+    display: grid;
+    padding: 10px 20px;
+    background-color: #FF8A00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+/* info-con */
+/*.info-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    max-height: 720px;
+    
+
+}*/
+
+/* table */
+.cus-table {
+    color: #fff;
+    font-size: 16px;
+}
+
+
+
+
