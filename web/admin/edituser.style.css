@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #91A3B0;
+    max-width: 1440px;
+}
+
+/*body {
+    max-width: 1440px;
+    background-color: #91A3B0;
+    box-sizing: border-box;
+}*/
+
+navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 30px;
+    padding: 20px;
+}
+.menu-btn a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 0 20px;
+    font-weight: 600;
+    background-color: #515151;
+}
+
+/* form edit */
+.container {
+    background-color: #ffffff;
+    max-width: 650px;
+    width: 650px;
+    height: 850px;
+    border-radius: 35px;
+    justify-content: center;
+    display: flex;
+    margin: 10px 0;
+    padding: 0;
+}
+.edit-con img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /*margin-left: 60px;*/
+    margin-top: 65px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+.detail-con {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn-con{
+    margin-top: 50px;
+}
+.btn-update{
+    padding: 10px 20px;
+    background-color: #0496FF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    margin-top: 30px;
+}
+.btn-cancel{
+    padding: 10px 20px;
+    background-color: #FF3D00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+}
