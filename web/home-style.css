@@ -13,13 +13,12 @@
 }*/
 
 navbar {
-    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 30px;
     padding: 20px;
+    margin-top: 30px;
 }
 .menu-btn a {
     text-decoration: none;
@@ -120,42 +119,27 @@ navbar {
     color: #fff;
     font-size: 16px;
 }
-
-
-/* modal 1 */
-.modal-btn {
+.btn-detail {
+    display: flex;
+}
+.btn-edit {
+    padding: 1.5px 6.5px;
+    background-color: #fa9f02;
     color: #fff;
-    padding: 8px 15px;
-    border-radius: 10px;
-    margin: 0 20px;
-    font-weight: 600;
-    background-color: #515151;
-    border-color: transparent;
-}
-/* modal 2 */
-.modal {
-    background-color: transparent;
-}
-.modal-dialog {
-    background-color: #515151;
-}
-.modal-content {
-    background-color: #515151;
-}
-.btn-inmodal {
-    padding: 10px 20px;
-    border-radius: 8px;
-    background-color: #FF3D00;
+    text-decoration: none;
+    border-radius: 6px;
     border: transparent;
-    font-size: 16px;
+    margin-right: 2.5px;
+}
+.btn-remove {
+    padding: 1.5px 6.5px;
+    background-color: #fa4002;
     color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    border: transparent;
+    margin-left: 2.5px;
 }
-.modal-footer {
-    background-color: transparent;
-}
-.modal-body {
-    background-color: transparent;
-    font-size: 24px;
-    text-align: center;
-}
+
+
 

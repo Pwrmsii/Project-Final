@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB PORTAL</title>
+
+    <link rel="stylesheet" href="home-style.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+    <script src="//cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#table").DataTable();
+        });
+    </script>
+
+</head>
+<body>
+
+    <!-- menu -->
+        <navbar class="menu-btn">
+            <a href="/web/home-page.html">HOME</a>
+            <a href="/web/admin/create-page.html">CREATE USER</a>
+        </navbar>
+
+
+        <div class="info-con d-flex justify-content-center "> 
+            <!-- profile -->
+            <div class="bodycard">
+                <div class="card">
+                 <img src="https://www.fool.com.au/wp-content/uploads/2022/09/shiba-inu.jpg" alt="Image" class="card-image">
+                     <div class="card-content">
+                         <h2 class="card-title">Woramate Siam</h2>
+                         <p class="card-text">User administrators</p>
+                         <p class="card-text">woramate.sia@mfec.co.th</p>
+                         <a href="/web/admin/myacc-page.html" class="card-button-edit">Edit my account</a>
+                         <a href="/web/login-page.html" class="card-button-signo">Sign out</a>
+                     </div>
+                 </div> 
+            </div>
+    
+             <!-- table -->
+            
+            <table id="table" class="cus-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Display name</th>
+                        <th>Roles and administrators</th>
+                        <th>Identities</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>MFEC0001</td>
+                        <td>Oscar</td>
+                        <td>Member</td>
+                        <td>oscar@xxx.xx.xx</td>
+                        <td>
+                            <div class="btn-detail">
+                                <button class="btn-edit">EDIT</button>
+                                <button class="btn-remove">REMOVE</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>MFEC0002</td>
+                        <td>Messi</td>
+                        <td>Guest</td>
+                        <td>l.messi@xxx.xx.xx</td>
+                        <td>
+                            <div class="btn-detail">
+                                <button class="btn-edit">EDIT</button>
+                                <button class="btn-remove">REMOVE</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>MFEC0003</td>
+                        <td>Eden Hazard</td>
+                        <td>Member</td>
+                        <td>eden.ha@xxx.xx.xx</td>
+                        <td>
+                            <div class="btn-detail">
+                                <button class="btn-edit">EDIT</button>
+                                <button class="btn-remove">REMOVE</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>MFEC0004</td>
+                        <td>Ronaldo</td>
+                        <td>Guest</td>
+                        <td>cr7@xxx.xx.xx</td>
+                        <td>
+                            <div class="btn-detail">
+                                <button class="btn-edit">EDIT</button>
+                                <button class="btn-remove">REMOVE</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>MFEC0005</td>
+                        <td>Benzema</td>
+                        <td>Guest</td>
+                        <td>benzema@xxx.xx.xx</td>
+                        <td>
+                            <div class="btn-detail">
+                                <button class="btn-edit">EDIT</button>
+                                <button class="btn-remove">REMOVE</button>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>MFEC0006</td>
+                        <td>Thiago Silva</td>
+                        <td>Member</td>
+                        <td>thiago.sil@xxx.xx.xx</td>
+                    </tr>
+                    <tr>
+                        <td>MFEC0007</td>
+                        <td>Rudiger</td>
+                        <td>Member</td>
+                        <td>rudiger@xxx.xx.xx</td>
+                    </tr>
+                    <tr>
+                        <td>MFEC0008</td>
+                        <td>Rooney</td>
+                        <td>Guest</td>
+                        <td>rooney@xxx.xx.xx</td>
+                    </tr>
+                    <tr>
+                        <td>MFEC0009</td>
+                        <td>Pedro</td>
+                        <td>Member</td>
+                        <td>pedro@xxx.xx.xx</td>
+                    </tr>
+                    <tr>
+                        <td>MFEC0010</td>
+                        <td>Drogba</td>
+                        <td>Member</td>
+                        <td>drogba@xxx.xx.xx</td>
+                    </tr>
+                    <tr>
+                        <td>MFEC0011</td>
+                        <td>Eto</td>
+                        <td>Member</td>
+                        <td>eto@xxx.xx.xx</td>
+                    </tr>
+                    <tr>
+                        <td>MFEC0012</td>
+                        <td>Fernando Torres</td>
+                        <td>Member</td>
+                        <td>fernando.to@xxx.xx.xx</td>
+                    </tr>
+                    <tr>
+                        <td>MFEC0013</td>
+                        <td>Diego Costa</td>
+                        <td>Member</td>
+                        <td>diego.co@xxx.xx.xx</td>
+                    </tr>
+                    <tr>
+                        <td>MFEC0014</td>
+                        <td>Timo Werner</td>
+                        <td>Member</td>
+                        <td>timo.we@xxx.xx.xx</td>
+                    </tr>
+                    <tr>
+                        <td>MFEC0015</td>
+                        <td>Makelele</td>
+                        <td>Member</td>
+                        <td>makelele@xxx.xx.xx</td>
+                    </tr>
+                    <tr>
+                        <td>MFEC0016</td>
+                        <td>Vlahovic</td>
+                        <td>Guest</td>
+                        <td>vlahovic@xxx.xx.xx</td>
+                    </tr>
+                    <tr>
+                        <td>MFEC0017</td>
+                        <td>Kevin De Bruyne</td>
+                        <td>Guest</td>
+                        <td>kevin.deb@xxx.xx.xx</td>
+                    </tr>
+                    <tr>
+                        <td>MFEC0018</td>
+                        <td>Haaland</td>
+                        <td>Guest</td>
+                        <td>haaland@xxx.xx.xx</td>
+                    </tr>
+                    <tr>
+                        <td>MFEC0019</td>
+                        <td>Neymar Jr</td>
+                        <td>Guest</td>
+                        <td>neymar.jr@xxx.xx.xx</td>
+                    </tr>
+                    <tr>
+                        <td>MFEC0020</td>
+                        <td>Buffon</td>
+                        <td>Guest</td>
+                        <td>buffon@xxx.xx.xx</td>
+                    </tr>
+                    <tr>
+                        <td>MFEC0021</td>
+                        <td>Petr Cech</td>
+                        <td>Member</td>
+                        <td>petr.ce@xxx.xx.xx</td>
+                    </tr>
+                    <tr>
+                        <td>MFEC0022</td>
+                        <td>Essien</td>
+                        <td>Member</td>
+                        <td>essien@xxx.xx.xx</td>
+                    </tr>
+                    <tr>
+                        <td>MFEC0023</td>
+                        <td>Woramate Siam</td>
+                        <td>User Administrators</td>
+                        <td>woramate.sia@xxx.xx.xx</td>
+                    </tr>
+            </table>
+        </div>
+    </div>
+    
+        
+
+
+</body>
+</html>
