@@ -1,0 +1,54 @@
+บท 2 
+
+website
+- https://www.webmaster.or.th/website
+
+azure
+- https://appmaster.io/th/blog/microsoft-azure-khuue-aair#microsoft-azure-span-khuue-aair 
+- https://www.caninnovation.co.th/microsoft-azure/
+
+azure ad แอชวล แอคทีฟ ไดเรกทอรี (Azure Active Directory)
+- https://blog.cloudhm.co.th/azure-active-directory/
+
+iis server
+- https://devhub.in.th/blog/what-is-web-server
+
+graph api
+- https://www.blognone.com/node/74933
+
+html 5
+- https://goterrestrial.com/2021/05/19/what-is-html/
+- https://html50.wordpress.com/%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B8%94%E0%B8%B5%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%82%E0%B9%89%E0%B8%AD%E0%B9%80%E0%B8%AA%E0%B8%B5%E0%B8%A2-html/
+
+css 3
+- https://blog.sogoodweb.com/Article/Detail/79237/CSS-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3-%E0%B8%A1%E0%B8%B5%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B9%82%E0%B8%A2%E0%B8%8A%E0%B8%99%E0%B9%8C-%E0%B8%AD%E0%B8%A2%E0%B9%88%E0%B8%B2%E0%B8%87%E0%B9%84%E0%B8%A3
+
+java script 
+- https://aws.amazon.com/th/what-is/javascript/
+- https://www.pangpond.com/javascript
+- https://blog.skooldio.com/top-7-programming-language/
+
+vue
+- https://blog.devahoy.com/blog/2019/08/introduction-to-vuejs
+- https://medium.com/@charoenprasertkultri/%E0%B9%81%E0%B8%9B%E0%B8%A5-react-and-angular-and-vue-js-in-2019-%E0%B9%83%E0%B8%84%E0%B8%A3%E0%B8%94%E0%B8%B5%E0%B8%81%E0%B8%A7%E0%B9%88%E0%B8%B2-14f381fd3324
+
+bootstrap
+- https://dev.classmethod.jp/articles/laravel-x-bootstrap/
+- https://devhub.in.th/blog/bootstrap
+
+figma
+- https://dev.classmethod.jp/articles/whats-about-figma/
+- https://blog.skooldio.com/figma-vs-sketch-vs-adobe-xd/
+
+jquery
+- https://www.mindphp.com/%E0%B8%9A%E0%B8%97%E0%B9%80%E0%B8%A3%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%AD%E0%B8%AD%E0%B8%99%E0%B9%84%E0%B8%A5%E0%B8%99%E0%B9%8C/%E0%B8%AA%E0%B8%AD%E0%B8%99-jquery/2776-%E0%B8%9A%E0%B8%97%E0%B8%97%E0%B8%B5%E0%B9%88-1-jquery-%E0%B8%84%E0%B8%B7%E0%B8%AD%E0%B8%AD%E0%B8%B0%E0%B9%84%E0%B8%A3.html
+- https://medium.com/@IjustcodeIT/jquery-introduction-b098829fe114
+
+
+
+
+
+
+
+
+
