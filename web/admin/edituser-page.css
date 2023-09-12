@@ -1,15 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #91A3B0;
     max-width: 1440px;
 }
 
-/*body {
+body {
     max-width: 1440px;
     background-color: #91A3B0;
     box-sizing: border-box;
-}*/
+} 
 
 navbar {
     display: flex;
@@ -32,29 +31,28 @@ navbar {
 
 /* form edit */
 .container {
-    background-color: #ffffff;
-    max-width: 650px;
-    width: 650px;
-    height: 850px;
+    position: absolute;
+    background-color: #fff;
+    left: 50%;
+    transform: translate(-50%);
+    width: 500px;
+    height: 650px;
     border-radius: 35px;
-    justify-content: center;
-    display: flex;
-    margin: 10px 0;
-    padding: 0;
 }
 .edit-con img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    /*margin-left: 60px;*/
     margin-top: 65px;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
+    padding: 0 170px;
 }
 .detail-con {
     text-align: center;
     margin-top: 30px;
+    color: #515151;
+}
+.detail-con input , select {
+    background-color: #c1c1c1;
 }
 
 .btn-con{
@@ -76,3 +74,6 @@ navbar {
     text-decoration: none;
     border-radius: 6px;
 }
+
+
+

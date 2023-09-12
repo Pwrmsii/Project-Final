@@ -1,8 +1,11 @@
+* {
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Ubuntu', sans-serif; 
+}
 body {
     margin: 0;
     padding: 0;
     background-color: #91A3B0;
-    font-family: 'League Gothic', sans-serif;
 }
 
 .container {

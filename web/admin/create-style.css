@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     background-color: #91A3B0;
-
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Ubuntu', sans-serif;  
+    box-sizing: border-box;
 }
 
 /*body {
@@ -33,13 +35,26 @@ navbar {
 /* form create */
 .container {
     position: absolute;
-    padding: 20px 20px;
-    width: 550px; /* ให้ความกว้างเต็มหน้าจอ */
-    height: 700px; /* ให้ความสูงเต็มหน้าจอ */
+    padding: 15px 20px;
+    max-width: 650px;
+    width: 650px; /* ให้ความกว้างเต็มหน้าจอ */
+    height: 690px; /* ให้ความสูงเต็มหน้าจอ */
     background-color: #f0f0f0;
     border-radius: 35px;
     left: 50%;
     transform: translate(-50%);
+}
+.form-detail input[type="file"] {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 25px;
+    background-color: #0496FF;
+    border-color: transparent;
+    left: 50%;
+    transform: translate(-50%);
+    position: relative;
+    cursor: pointer;
 }
 
 form {
@@ -47,20 +62,29 @@ form {
 }
 .form-detail , .form-detail label {
     background-color: transparent;
+    padding: 7px 8px;
 }
 .form-detail input , .form-detail select{
-    background-color: #c1c1c1;
+    background-color: transparent;
+    padding: 8px 5px;
+    border: none;
+    border-bottom: 3px solid #515151;
+    font-size: 14px;
+    outline: none;
 }
+
 .btn-submit {
-    padding: 8px 16px;
+    padding: 10px 20px;
     background-color: #0496FF;
     color: #fff;
     border-color: transparent;
     text-decoration: none;
     border-radius: 6px;
-    margin-bottom: 12px;
-    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    margin-right: 10px;
     float: right;
+
 }
 
 

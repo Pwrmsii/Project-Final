@@ -1,15 +1,16 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #91A3B0;
     max-width: 1440px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-/* body {
+body {
     max-width: 1440px;
     background-color: #91A3B0;
     box-sizing: border-box;
-} */
+}
 
 navbar {
     display: flex;
@@ -31,12 +32,12 @@ navbar {
 }
 
 /* CARD */
-.card-con {
+.container {
     position: absolute;
     background-color: #515151;
     left: 50%;
     transform: translate(-50%);
-    width: 500px;
+    width: 520px;
     height: 650px;
     border-radius: 35px;
 }
@@ -55,20 +56,39 @@ navbar {
 }
 .main-info {
     margin: 25px;
+    width: 450px;
+    max-width: 450px;
 }
+.detail-info {
+    margin-top: 25px;
+}
+.detail-1 , .detail-2 {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.detail-job h3 {
+    padding: 0;
+    float: left;
+    padding: 5px;
+}
+
 
 /* BTN */
 .btn-card{
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .btn-edit{
     padding: 10px 20px;
-    background-color: #515151;
+    background-color: #00bbff;
     color: #fff;
     text-decoration: none;
     border-radius: 6px;
     margin-bottom: 12px;
     margin-top: 30px;
+    margin-right: 5px;
 }
 .btn-signo{
     padding: 10px 20px;
@@ -76,6 +96,8 @@ navbar {
     color: #fff;
     text-decoration: none;
     border-radius: 6px;
+    margin-left: 5px;
 }
+
 
 

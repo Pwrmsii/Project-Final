@@ -4,6 +4,8 @@
     background-color: #91A3B0;
     align-items: center;
     box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /*body {
@@ -39,7 +41,7 @@ navbar {
 
 .card {
     max-width: 450px;
-    height: 720px;
+    height: 690px;
     background-color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 40px;

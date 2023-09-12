@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create User</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="/web/admin/create-style.css">
 </head>
 <body>
@@ -39,18 +43,19 @@
                 <!-- password -->
                 <div class="form-detail">
                     <label for="password">Password</label>
-                    <input type="password" name="password">
-
+                    <input type="password" name="password" placeholder=" password">
+                </div>
+                <div class="form-detail">
                     <label for="password">Comfirm password</label>
-                    <input type="password" name="password">
+                    <input type="password" name="password" placeholder=" password">
                 </div>
                 <!-- phone & date -->
                 <div class="form-detail">
                     <label for="phone">Phone</label>
-                    <input type="tel" name="phone">
+                    <input type="tel" name="phone" placeholder=" tel">
 
                     <label for="date">Birthdate</label>
-                    <input type="date" name="date">
+                    <input type="date" name="date" placeholder=" date">
                 </div>
                 <!-- department -->
                 <div class="form-detail">
@@ -92,7 +97,7 @@
                     </select>
                 </div>
                 <!-- button submit -->
-                <button type="button" value="submit" class="btn-submit">Submit</button>
+                <a href="/web/home-page.html" class="btn-submit">SUBMIT</a>
             </form>
         </div>
 
