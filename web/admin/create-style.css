@@ -33,17 +33,15 @@ navbar {
 /* form create */
 .container {
     position: absolute;
-    display: flex; /* ใช้ flex container */
-    justify-content: center; /* จัดตรงกลางในแนวนอน */
-}
-.container {
-    margin: 0; 
-    padding: 0;
-    width: 650px; /* ให้ความกว้างเต็มหน้าจอ */
-    height: 850px; /* ให้ความสูงเต็มหน้าจอ */
+    padding: 20px 20px;
+    width: 550px; /* ให้ความกว้างเต็มหน้าจอ */
+    height: 700px; /* ให้ความสูงเต็มหน้าจอ */
     background-color: #f0f0f0;
     border-radius: 35px;
+    left: 50%;
+    transform: translate(-50%);
 }
+
 form {
     background-color: transparent;
 }
@@ -51,10 +49,18 @@ form {
     background-color: transparent;
 }
 .form-detail input , .form-detail select{
-    background-color: aqua;
+    background-color: #c1c1c1;
 }
 .btn-submit {
-    background-color: aqua;
+    padding: 8px 16px;
+    background-color: #0496FF;
+    color: #fff;
+    border-color: transparent;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    margin-top: 20px;
+    float: right;
 }
 
 
