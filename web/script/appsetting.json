@@ -1,6 +1,0 @@
-"AzureAd": {
-    "Instance": "https://login.microsoftonline.com/",
-    "Tenant": "5c1f9303-98b7-4651-94b4-3b84312a3050",
-    "ClientId": "38fb1219-567d-4837-ad44-14b1895b4215",
-    "ClientSecret": "CvF8Q~Zwh4mFMp9_6cuMFEJ9Hj97xZV7CCGNbdbK"
-}

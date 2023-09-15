@@ -25,7 +25,7 @@
         });
     </script>
 
-    <script src="script.js"></script> <!-- เชื่อมต่อ script.js -->
+    <script src="datatable.js"></script> <!-- เชื่อมต่อ script.js -->
 
 </head>
 <body>
@@ -57,186 +57,21 @@
             <table id="table" class="cus-table">
                 <thead>
                     <tr>
-                        <th>ID</th>
                         <th>Display name</th>
-                        <th>Roles and administrators</th>
+                        <th>Roles</th>
                         <th>Identities</th>
                         <th>Details</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>MFEC0001</td>
-                        <td>Oscar</td>
-                        <td>Member</td>
-                        <td>oscar@xxx.xx.xx</td>
-                        <td>
-                            <div class="btn-detail">
-                                <a href="/web/admin/infouser-page.html" class="btn-edit">EDIT</a>
-                                <button class="btn-remove">REMOVE</button>
-                            </div>
-                        </td>
                     </tr>
-                    <tr>
-                        <td>MFEC0002</td>
-                        <td>Messi</td>
-                        <td>Guest</td>
-                        <td>l.messi@xxx.xx.xx</td>
-                        <td>
-                            <div class="btn-detail">
-                                <a href="/web/admin/infouser-page.html" class="btn-edit">EDIT</a>
-                                <button class="btn-remove">REMOVE</button>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>MFEC0003</td>
-                        <td>Eden Hazard</td>
-                        <td>Member</td>
-                        <td>eden.ha@xxx.xx.xx</td>
-                        <td>
-                            <div class="btn-detail">
-                                <a href="/web/admin/infouser-page.html" class="btn-edit">EDIT</a>
-                                <button class="btn-remove">REMOVE</button>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>MFEC0004</td>
-                        <td>Ronaldo</td>
-                        <td>Guest</td>
-                        <td>cr7@xxx.xx.xx</td>
-                        <td>
-                            <div class="btn-detail">
-                                <a href="/web/admin/infouser-page.html" class="btn-edit">EDIT</a>
-                                <button class="btn-remove">REMOVE</button>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>MFEC0005</td>
-                        <td>Benzema</td>
-                        <td>Guest</td>
-                        <td>benzema@xxx.xx.xx</td>
-                        <td>
-                            <div class="btn-detail">
-                                <a href="/web/admin/infouser-page.html" class="btn-edit">EDIT</a>
-                                <button class="btn-remove">REMOVE</button>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>MFEC0006</td>
-                        <td>Thiago Silva</td>
-                        <td>Member</td>
-                        <td>thiago.sil@xxx.xx.xx</td>
-                    </tr>
-                    <tr>
-                        <td>MFEC0007</td>
-                        <td>Rudiger</td>
-                        <td>Member</td>
-                        <td>rudiger@xxx.xx.xx</td>
-                    </tr>
-                    <tr>
-                        <td>MFEC0008</td>
-                        <td>Rooney</td>
-                        <td>Guest</td>
-                        <td>rooney@xxx.xx.xx</td>
-                    </tr>
-                    <tr>
-                        <td>MFEC0009</td>
-                        <td>Pedro</td>
-                        <td>Member</td>
-                        <td>pedro@xxx.xx.xx</td>
-                    </tr>
-                    <tr>
-                        <td>MFEC0010</td>
-                        <td>Drogba</td>
-                        <td>Member</td>
-                        <td>drogba@xxx.xx.xx</td>
-                    </tr>
-                    <tr>
-                        <td>MFEC0011</td>
-                        <td>Eto</td>
-                        <td>Member</td>
-                        <td>eto@xxx.xx.xx</td>
-                    </tr>
-                    <tr>
-                        <td>MFEC0012</td>
-                        <td>Fernando Torres</td>
-                        <td>Member</td>
-                        <td>fernando.to@xxx.xx.xx</td>
-                    </tr>
-                    <tr>
-                        <td>MFEC0013</td>
-                        <td>Diego Costa</td>
-                        <td>Member</td>
-                        <td>diego.co@xxx.xx.xx</td>
-                    </tr>
-                    <tr>
-                        <td>MFEC0014</td>
-                        <td>Timo Werner</td>
-                        <td>Member</td>
-                        <td>timo.we@xxx.xx.xx</td>
-                    </tr>
-                    <tr>
-                        <td>MFEC0015</td>
-                        <td>Makelele</td>
-                        <td>Member</td>
-                        <td>makelele@xxx.xx.xx</td>
-                    </tr>
-                    <tr>
-                        <td>MFEC0016</td>
-                        <td>Vlahovic</td>
-                        <td>Guest</td>
-                        <td>vlahovic@xxx.xx.xx</td>
-                    </tr>
-                    <tr>
-                        <td>MFEC0017</td>
-                        <td>Kevin De Bruyne</td>
-                        <td>Guest</td>
-                        <td>kevin.deb@xxx.xx.xx</td>
-                    </tr>
-                    <tr>
-                        <td>MFEC0018</td>
-                        <td>Haaland</td>
-                        <td>Guest</td>
-                        <td>haaland@xxx.xx.xx</td>
-                    </tr>
-                    <!-- <tr>
-                        <td>MFEC0019</td>
-                        <td>Neymar Jr</td>
-                        <td>Guest</td>
-                        <td>neymar.jr@xxx.xx.xx</td>
-                    </tr>
-                    <tr>
-                        <td>MFEC0020</td>
-                        <td>Buffon</td>
-                        <td>Guest</td>
-                        <td>buffon@xxx.xx.xx</td>
-                    </tr>
-                    <tr>
-                        <td>MFEC0021</td>
-                        <td>Petr Cech</td>
-                        <td>Member</td>
-                        <td>petr.ce@xxx.xx.xx</td>
-                    </tr>
-                    <tr>
-                        <td>MFEC0022</td>
-                        <td>Essien</td>
-                        <td>Member</td>
-                        <td>essien@xxx.xx.xx</td>
-                    </tr>
-                    <tr>
-                        <td>MFEC0023</td>
-                        <td>Woramate Siam</td>
-                        <td>User Administrators</td>
-                        <td>woramate.sia@xxx.xx.xx</td>
-                    </tr> -->
             </table>
         </div>
     </div>
-    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.24/js/jquery.dataTables.min.js"></script>
+    <script src="datatable.js"></script>
         
 
 
