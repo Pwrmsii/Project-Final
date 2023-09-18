@@ -1,0 +1,6 @@
+"AzureAd": {
+    "Instance": "https://login.microsoftonline.com/",
+    "Tenant": "my-org.onmicrosoft.com",
+    "ClientId": "11111111-aaaa-2222-bbbb-33333333333",
+    "ClientSecret": "abcdefghijklmnopqrstuvwxyz0123456789"
+}

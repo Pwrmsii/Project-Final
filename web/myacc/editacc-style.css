@@ -1,14 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    max-width: 1440px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Ubuntu', sans-serif;  
 }
 
 body {
-    max-width: 1440px;
     background-color: #91A3B0;
-    box-sizing: border-box;
-} 
+}
 
 navbar {
     display: flex;
@@ -35,8 +34,8 @@ navbar {
     background-color: #fff;
     left: 50%;
     transform: translate(-50%);
-    width: 500px;
-    height: 650px;
+    width: 640px;
+    height: 690px;
     border-radius: 35px;
 }
 .edit-con img {
@@ -44,19 +43,38 @@ navbar {
     height: 150px;
     border-radius: 50%;
     margin-top: 65px;
-    padding: 0 170px;
+    padding: 0 80px;
+    left: 50%;
+    transform: translate(55%);
+
 }
 .detail-con {
-    text-align: center;
     margin-top: 30px;
     color: #515151;
+    width: 620px;
+    max-width: 620px;
+    margin-left: 20px;
+}
+.inputbox {
+    padding: 0 10px;
 }
 .detail-con input , select {
-    background-color: #c1c1c1;
+    background-color: transparent;
+    padding: 12px 0px;
+    border: none;
+    border-bottom: 3px solid #515151;
+    font-size: 14px;
+    outline: none;
+}
+.detail-con label {
+    padding: 0px 15px;
 }
 
+
 .btn-con{
-    margin-top: 50px;
+    margin-top: 35px;
+    float: right;
+    margin-right: 35px;
 }
 .btn-update{
     padding: 10px 20px;
@@ -74,6 +92,3 @@ navbar {
     text-decoration: none;
     border-radius: 6px;
 }
-
-
-

@@ -1,15 +1,12 @@
 * {
     margin: 0;
     padding: 0;
-    max-width: 1440px;
     font-family: 'Kanit', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif;  
 }
 
 body {
-    max-width: 1440px;
     background-color: #91A3B0;
-    box-sizing: border-box;
 }
 
 navbar {
@@ -31,73 +28,67 @@ navbar {
     background-color: #515151;
 }
 
-/* CARD */
+/* form edit */
 .container {
     position: absolute;
-    background-color: #515151;
+    background-color: #fff;
     left: 50%;
     transform: translate(-50%);
-    width: 520px;
-    height: 650px;
+    width: 640px;
+    height: 690px;
     border-radius: 35px;
 }
-.card-acc img {
+.edit-con img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    /*margin-left: 60px;*/
     margin-top: 65px;
+    padding: 0 80px;
+    left: 50%;
+    transform: translate(55%);
+
+}
+.detail-con {
+    margin-top: 30px;
+    color: #515151;
+    width: 620px;
+    max-width: 620px;
+    margin-left: 20px;
+}
+.inputbox {
+    padding: 0 10px;
+}
+.detail-con input , select {
     background-color: transparent;
+    padding: 12px 0px;
+    border: none;
+    border-bottom: 3px solid #515151;
+    font-size: 14px;
+    outline: none;
 }
-.card-acc {
-    text-align: center;
-    background-color: transparent;
-    color: #fff;
-}
-.main-info {
-    margin: 25px;
-    width: 450px;
-    max-width: 450px;
-}
-.detail-info {
-    margin-top: 25px;
-}
-.detail-1 , .detail-2 {
-    display: flex;
-    padding: 0;
-    justify-content: center;
-    justify-content: space-between;
-    padding: 5px;
-}
-.detail-job h3 {
-    padding: 0;
-    float: left;
-    padding: 5px;
+.detail-con label {
+    padding: 0px 15px;
 }
 
 
-/* BTN */
-.btn-card{
-    margin-top: 100px;
+.btn-con{
+    margin-top: 35px;
+    float: right;
+    margin-right: 35px;
 }
-.btn-edit{
+.btn-update{
     padding: 10px 20px;
-    background-color: #00bbff;
+    background-color: #0496FF;
     color: #fff;
     text-decoration: none;
     border-radius: 6px;
     margin-bottom: 12px;
     margin-top: 30px;
-    margin-right: 5px;
 }
-.btn-signo{
+.btn-cancel{
     padding: 10px 20px;
-    background-color: #FF8A00;
+    background-color: #FF3D00;
     color: #fff;
     text-decoration: none;
     border-radius: 6px;
-    margin-left: 5px;
 }
-
-
-

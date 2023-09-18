@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     background-color: #91A3B0;
-    align-items: center;
     box-sizing: border-box;
     font-family: 'Kanit', sans-serif;
     font-family: 'Ubuntu', sans-serif;
@@ -37,6 +36,10 @@ navbar {
     display: flex;
     justify-content:center;
     align-items: center;
+    max-width: 450px;
+    max-height: 800px;
+    right: 550%;
+    transform: translate(90%);
 } 
 
 .card {
@@ -45,10 +48,11 @@ navbar {
     background-color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 40px;
-    margin-top: 180px;
+    margin-top: 50px;
     text-align: center;
     padding-left: 40px;
     padding-right: 40px;
+    border-radius: 15px;
 }
 
 /* Style for the card image */
