@@ -35,16 +35,13 @@ navbar {
 .bodycard {
     display: flex;
     justify-content:center;
-    align-items: center;
-    max-width: 450px;
-    max-height: 800px;
-    right: 550%;
-    transform: translate(90%);
+    width: 1440px;
+    max-width: 1440px;
 } 
 
 .card {
     max-width: 450px;
-    height: 690px;
+    height: 600px;
     background-color: #fff;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     margin: 40px;
@@ -121,9 +118,15 @@ navbar {
 }*/
 
 /* table */
+th {
+    padding: 0px 50px;
+}
 .cus-table {
     color: #fff;
     font-size: 16px;
+    margin-top: 140px;
+    height: 480px;
+    max-height: 480px;
 }
 .btn-detail {
     display: flex;
