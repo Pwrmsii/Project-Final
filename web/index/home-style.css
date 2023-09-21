@@ -109,12 +109,6 @@ navbar {
 /* info-con */
 /*.info-con {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    max-height: 720px;
-    
-
 }*/
 
 /* table */
@@ -124,9 +118,18 @@ th {
 .cus-table {
     color: #fff;
     font-size: 16px;
-    margin-top: 140px;
+    margin-top: 25px;
     height: 500px;
     max-height: 500px;
+}
+.search-con {
+    width: 350px;
+    height: 35px;
+    border-radius: 10px;
+    border-color: #FF8A00;
+    margin-top: 60px;
+    margin-left: 40px;
+    background-color: #fa9f02;
 }
 .btn-detail {
     display: flex;

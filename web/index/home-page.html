@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
     
-    <!-- <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
     <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
     <script rel="stylesheet" src="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css"></script> 
     <script>
@@ -20,7 +20,9 @@
         scrollCollapse: true,
         scrollY: '50vh'
         });
-    </script> -->
+    </script>
+
+    <script src="card-id.js"></script>
 
 </head>
 <body>
@@ -36,35 +38,50 @@
             <!-- profile -->
             <div class="bodycard">
                 <div class="card">
-                 <img src="https://www.fool.com.au/wp-content/uploads/2022/09/shiba-inu.jpg" alt="Image" class="card-image">
+                 <img src="https://www.fool.com.au/wp-content/uploads/2022/09/shiba-inu.jpg" alt="Image" class="card-image" id="profile-image">
                      <div class="card-content">
-                         <h2 class="card-title">Woramate Siam</h2>
-                         <p class="card-text">User administrators</p>
-                         <p class="card-text">woramate.sia@mfec.co.th</p>
+                         <h2 class="card-title" id="user-name">Woramate Siam</h2>
+                         <p class="card-text" id="job-title">User administrators</p>
+                         <p class="card-text" id="user-email">woramate.sia@mfec.co.th</p>
                          <a href="/web/myacc/myacc-page.html" class="card-button-edit">Edit my account</a>
                          <a href="/web/login/login-page.html" class="card-button-signo">Sign out</a>
                      </div>
                  </div> 
 
+                 <!-- serach -->
+                 
+                <div class="table-con">
+                    <div class="search">
+                        <input type="text" id="searchInput" placeholder=" Search..." class="search-con">
+                    </div>
+                    <table id="table" class="cus-table">
+                        
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Displayname</th>
+                                <th>Role and administrators</th>
+                                <th>Identities</th>
+                                <th>Details</th>
+                            </tr>
+                        </thead>
+                        <tbody class="usertable">
+                            <!-- ข้อมูลจะถูกแสดงที่นี่ -->
+                        </tbody>
+                    </table>  
+                </div>
                 <!-- table -->
-                <table id="table" class="cus-table">
-                    <thead>
-                        <tr>
-                            <th>Displayname</th>
-                            <th>Role and administrators</th>
-                            <th>Identities</th>
-                            <th>Details</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <!-- ข้อมูลจะถูกแสดงที่นี่ -->
-                    </tbody>
-                </table>
+                
             </div>
         </div>         
-                <script src="datatable.js"></script> <!-- เชื่อมไฟล์ JavaScript สำหรับการดึงข้อมูล -->
-        
-
+                <!-- Include jQuery and DataTables JavaScript -->
+                <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                <script src="https://cdn.datatables.net/1.11.6/js/jquery.dataTables.min.js"></script>
+                <!-- Your custom JavaScript to fetch and populate data -->
+                <script src="datatable.js"></script>
+                <!-- <script src="user.cs"></script> -->
+                <script src="search.js"></script>
+                    
 
 </body>
 </html>
