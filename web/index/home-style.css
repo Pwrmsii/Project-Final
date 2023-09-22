@@ -127,6 +127,10 @@ th {
     height: 500px;
     max-height: 500px;
 }
+.cus-table dataTable {
+    height: 500px;
+    max-height: 500px;
+}
 
 .search-con {
     width: 350px;

@@ -3,3 +3,4 @@ new DataTable('#datatable', {
     scrollCollapse: true,
     scrollY: '50vh'
 });
+
