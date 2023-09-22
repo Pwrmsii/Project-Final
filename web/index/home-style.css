@@ -119,9 +119,15 @@ th {
     color: #fff;
     font-size: 16px;
     margin-top: 25px;
+
+}
+/* datatable */
+.dataTables_wrapper {
+    margin-top: 50px;
     height: 500px;
     max-height: 500px;
 }
+
 .search-con {
     width: 350px;
     height: 35px;
