@@ -1,6 +1,6 @@
 // Replace with your Azure AD app's client ID and client secret
-const clientId = '38fb1219-567d-4837-ad44-14b1895b4215';
-const clientSecret = 'CvF8Q~Zwh4mFMp9_6cuMFEJ9Hj97xZV7CCGNbdbK';
+const clientId = '.........';
+const clientSecret = '.........';
 const scopes = ['https://graph.microsoft.com/.default'];
 
 const msalConfig = {
